@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="def7d650-9256-49c7-b223-65285347c3e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GeneralInfo/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GeneralInfo/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/styles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Waves/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Waves/three-canvas-renderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="def7d650-9256-49c7-b223-65285347c3e2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -83,7 +64,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GeneralInfo/styles.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-22">
               <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
@@ -266,16 +247,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572289026175</updated>
-      <workItem from="1572289028359" duration="13904000" />
+      <workItem from="1572289028359" duration="14037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13904000" />
+    <option name="totallyTimeSpent" value="14037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="955" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -420,7 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GeneralInfo/styles.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-22">
           <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
