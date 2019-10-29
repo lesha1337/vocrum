@@ -1,12 +1,11 @@
-import React, { Component } from "react";
+import React, {Component, Fragment} from "react";
 import Waves from "../Waves";
-import Wrapper from "../Wrapper";
 import styles from "./styles.module.scss";
 
 class Main extends Component {
   render() {
     return (
-      <Wrapper withGradient>
+      <Fragment>
         <div className={"container"} style={{ textAlign: "center" }}>
           <div className={styles.topText}>
             <h3>МЫ ПОСТРОИМ ДЕТСКИЙ ДОМ!</h3>
@@ -24,7 +23,7 @@ class Main extends Component {
         <Waves
           style={{ paddingTop: '100px', width: "100vw", height: "100vh", backgroundColor: "black" }}
         />
-      </Wrapper>
+      </Fragment>
     );
   }
 }

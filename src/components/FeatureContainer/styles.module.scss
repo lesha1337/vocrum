@@ -1,0 +1,46 @@
+.feature {
+  background: #27272e;
+  border-radius: 7px;
+  width: calc(100% - 40px);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  div {
+    &:last-child {
+      padding-top: 0.8em;
+    }
+  }
+}
+
+.right {
+  align-self: flex-end;
+}
+
+@media all and (min-width: 800px) {
+  .left {
+    justify-content: space-evenly;
+    width: calc(100% - 200px);
+  }
+
+  .right {
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+}

@@ -34,9 +34,21 @@ p {
   z-index: 100;
 }
 
-
 @media all and (max-width: 800px) {
   body {
     font-size: 12px;
   }
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border-radius: 7px;
+  padding: 8px 13px;
+  background: #5b5d72;
+  border: 0;
+  outline: none !important;
+  font-size: 0.9em;
+  color: #ffffff;
+  line-height: normal;
+  cursor: pointer;
 }

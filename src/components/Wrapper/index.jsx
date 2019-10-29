@@ -4,7 +4,9 @@ import classNames from "classnames";
 
 class Wrapper extends Component {
   static defaultProps = {
-    withGradient: false
+    withGradient: false,
+    withContainer: false,
+    dark: false
   };
 
   render() {
@@ -13,10 +15,25 @@ class Wrapper extends Component {
         className={classNames(
           styles.wrapper,
           this.props.className,
+          this.props.dark && styles.dark,
           this.props.withGradient && styles.withGradient
         )}
       >
-        {this.props.children}
+        {this.props.withContainer ? (
+          <Container>{this.props.children}</Container>
+        ) : (
+          this.props.children
+        )}
+      </div>
+    );
+  }
+}
+
+class Container extends Component {
+  render() {
+    return (
+      <div className={"container"}>
+        <div className={styles.innerWrapper}>{this.props.children}</div>
       </div>
     );
   }

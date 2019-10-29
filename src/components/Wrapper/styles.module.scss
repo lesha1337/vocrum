@@ -5,6 +5,30 @@
   height: 100vh;
 }
 
+.innerWrapper {
+  font-size: 1.2em;
+  max-width: 1200px;
+  width: calc(100% - 2em);
+  padding: 0 1em;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+    font-weight: normal;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .innerWrapper {
+    h1 {
+      font-size: 1.8em;
+    }
+  }
+}
+
 .withGradient {
   &:after {
     content: " ";
@@ -21,4 +45,8 @@
     top: 0;
     left: 0;
   }
+}
+
+.dark {
+  background: #131317;
 }
