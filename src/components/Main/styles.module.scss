@@ -2,7 +2,6 @@
   h3 {
     font-size: 1.6em;
     color: rgba(255, 255, 255, 0.75);
-    //line-height: ;
     padding-bottom: 0.5em;
     letter-spacing: 2.64px;
     font-weight: bold;
@@ -10,9 +9,17 @@
 }
 
 .logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  svg {
+    padding: 2.28em 0.5em 0 0;
+    width: 5em;
+    height: 5.5em;
+  }
   h1 {
     line-height: 1.3;
-    font-size: 8em;
+    font-size: 7em;
     font-weight: 500;
     letter-spacing: 8.7px;
   }
@@ -39,12 +46,17 @@
       font-size: 1.4em;
     }
   }
-  .bottomText{
-    h2{
+  .bottomText {
+    h2 {
       font-size: 1.8em;
     }
   }
   .logo {
+    svg {
+      padding: 1.9em 0.5em 0 0;
+      width: 4em;
+      height: 3.9em;
+    }
     h1 {
       font-size: 5.5em;
     }

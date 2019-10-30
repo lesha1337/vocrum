@@ -4,13 +4,13 @@ import { CanvasRenderer, SpriteCanvasMaterial } from "./three-canvas-renderer";
 
 export default class Waves extends Component {
   static defaultProps = {
-    color: '#868686',
+    color: "#868686",
     separation: 100,
     height: 50,
     amountX: 50,
     amountY: 50,
-    speed: 1,
-    scale: 4
+    speed: 0.5,
+    scale: 8
   };
 
   componentDidMount() {
